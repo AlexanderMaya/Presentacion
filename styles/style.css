@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    height: inherit;
+    justify-content: space-between;
+}
+
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.logo{
+    margin-top: 5px;
+}
+
+.menu{
+    height: inherit;
+    display: flex;
+    align-items: inherit;
+}
+
+.header ol{
+display: flex;
+height: inherit;
+align-items: inherit;
+list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+
+figure {
+    margin: 0;
+}
+.principal{
+    height: 300px;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagenPrincipal {
+    object-fit: cover;
+}
+
+h1 {
+    color: white;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+}
+
+strong {
+    color: #026fff;
+}
+
+.acercaDeMi {
+    background: #f4f4f4;
+}
+
+.sobreMi {
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.titulo-sobreMi {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.descripcion-sobreMi {
+    font-size: 20px;
+}
+
+.sobreMi-detalles {
+    width: 500px;
+}
+
+.imagen-sobreMi-contenedor{
+    width: 300px;
+} 
+
+.lista-MasSobreMi{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MasSobreMi{
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f4f4f4;
+}
+
+.imagen-MasSobreMi{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.detalle-MasSobreMi{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 40px;
+    margin-top: -40px;
+    position: relative;
+}
+
+.este-es-la-seccion-del-contacto{
+    background-color: #026fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.formulario-email input{
+ border-color: gray;
+ padding: 10px;
+ width: 150px;
+ border-radius: 5px;
+}
+.formulario-email button{
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.link-social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.twitter{
+    background-image: url("https://img.icons8.com/android/24/000000/twitter.png");
+    background-size: 40px 40px;
+}
+.instagram{
+    background-image: url("https://img.icons8.com/metro/26/000000/instagram-new.png");
+    background-size: 40px 40px;
+}
+.paginacolegio{
+    background-image: url("https://www.iebarriosannicolas.edu.co/img/I.E.Barrio_San_Nicolas.png");
+    background-size: 40px 40px;
+}
+.footer{
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
